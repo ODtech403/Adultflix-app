@@ -1,0 +1,28 @@
+{
+  "name": "bunny-token-signer",
+  "version": "1.0.0",
+  "description": "Secure Bunny.net video token signing service",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "bunny.net",
+    "video",
+    "token",
+    "signing",
+    "cdn"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+
